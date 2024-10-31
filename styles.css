@@ -11,11 +11,28 @@ body {
 
 main {
   display: grid;
-  grid-template-rows: 4.5rem 3rem 1fr;
+  grid-template-rows: auto auto 1fr;
   background-color: #fff;
   margin: 1rem;
   border-radius: 8px;
   border: 1px solid #e7e7e7;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 1.5rem;
+}
+
+.sidebar .menu-group {
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+}
+
+.sidebar .menu-group:last-child {
+  margin-top: auto;
 }
 
 header {
@@ -23,6 +40,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem;
+  border-bottom: 1px solid #e7e7e7;
 }
 
 ul {
@@ -44,4 +62,17 @@ img {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 1.5rem;
+}
+
+button {
+  font-size: 0.875rem;
+  padding: 8px 16px;
+  border-radius: 2rem;
 }
