@@ -5,5 +5,43 @@ body {
 .container {
   height: 100%;
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 5fr;
+  background-color: #f9f9f9;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 4.5rem 3rem 1fr;
+  background-color: #fff;
+  margin: 1rem;
+  border-radius: 8px;
+  border: 1px solid #e7e7e7;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  height: 3rem;
+  width: 3rem;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
