@@ -27,7 +27,8 @@ main {
 }
 
 .search {
-  background-color: #e7e7e7;
+  background-color: #eee;
+  border: 1px solid transparent;
   border-radius: 2rem;
   display: flex;
   gap: 0.625rem;
